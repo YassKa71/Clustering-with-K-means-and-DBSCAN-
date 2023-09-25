@@ -39,7 +39,7 @@ def raw_KM(K):
 
 df.plot(kind = 'scatter', x="x", y="y", label="data")
 centroids = raw_KM(4)
-plt.scatter(centroids[: , 0], centroids[:, 1], label='Centroids', marker='^', color= 'red')
+plt.scatter(centroids[: , 0], centroids[:, 1], label='Centroids', marker='^', color= 'orange')
 plt.legend()
 plt.show()
 
